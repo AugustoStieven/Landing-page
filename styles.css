@@ -1,0 +1,41 @@
+:root {
+    --ff: "Inter", sans-serif;
+    --colorprimary: #FFFFFF;
+    --colorsecondary: #000000;
+    --coloraccent: #ff6600;
+    --h1: bold 50px/62px var(--ff);
+    --h2: bold 25px/30px var(--ff);
+    --p:  20px/25px var(--ff);
+}
+body {
+    background: var(--colorsecondary);
+    color: var(--colorprimary);
+}
+h1 {
+    font: var(--h1);
+}
+h2 {
+    font: var(--h2);
+}
+p {
+    font: var(--p);
+}
+a {
+    background: var(--coloraccent);
+    color: var(--colorprimary);
+    padding: 20px 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+img {
+    width:100%;
+}
+#hero-section{
+    display:flex;
+    flex-wrap: wrap;
+    }
+#hero-text{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    }
